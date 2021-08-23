@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    body{
+    
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif ;
+    left: 0 auto;
+    top: 0 auto;
+    }  
+    
+/** Document 1, 2 et 3 bouton -> Link **/
+     .container_docs{
+         display: flex;
+         justify-content: center;
+         align-items: center; 
+         margin-top: 5%;
+         margin-bottom: 5%;
+         flex-direction: column;
+     }
+
+    /* parent  */
+    .document_btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        
+    }
+    /* fils */
+    .document{
+        width: 250px;
+        height: 60px;
+        text-align: center;
+        background-color:#87BB34;
+        border:  #627B1D  5px solid ;
+        border-radius: 50px ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        -webkit-border-radius:  60px ;
+        -moz-border-radius: 50px ;
+        -ms-border-radius: 50px ;
+        -o-border-radius: 50px ;
+    }
+
+    .document:hover{
+        background-color:#627B1D ;
+        border:  #87BB34    4px solid ; 
+        font-size: 1.5rem;
+        color: white;
+        
+    }
+
+/** Submit bouton -> Valider **/
+    /* parent  */
+    .all_document_btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 10px;
+    }
+    /* fils */
+    .all_document{
+        width: 250px;
+        height: 60px;
+        text-align: center;
+        background-color:#627B1D ;
+        border: #87BB34 5px solid ;
+        border-radius: 60px ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        -webkit-border-radius: 60px ;
+        -moz-border-radius: 60px ;
+        -ms-border-radius: 60px ;
+        -o-border-radius: 60px ;
+}
+
+    .all_document:hover{
+        background-color:#87BB34  ;
+        border: #627B1D 5px solid ; 
+    }
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+p{
+    font-family: 'Montserrat', sans-serif ;
+    font-size: 0.75rem;
+    font-weight: lighter;
+    color: #627B1D;
+    padding: 2px;
+}
+p:hover{
+    font-family: 'Montserrat', sans-serif ;
+    font-size: 0.75rem;
+    font-weight: lighter;
+    color: #ffffff;
+    padding: 2px;
+}

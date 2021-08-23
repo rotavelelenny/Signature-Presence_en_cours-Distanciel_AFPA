@@ -1,0 +1,67 @@
+/* 
+! Fait par Lenny Vazeille 
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+body, html{
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif ;
+    }
+        
+.download_a{
+    /* border: pink 2px solid; */
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 50%;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+    margin-top: 30px;
+    padding: 35px;
+}
+
+.file_left{
+    border-top: grey 2px solid;
+    border-bottom: grey 2px solid;
+}
+#myFile{
+    margin: 20px;
+}
+
+    /** Submit bouton -> Valider **/
+/* parent  */
+.submit_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+/* fils */
+.submit{
+    width: 170px;
+    height: 60px;
+    color: white;
+    letter-spacing: 10px;
+    text-align: center;
+    background-color:#627B1D ;
+    border: #87BB34 5px solid ;
+    border-radius: 50px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-border-radius: 50px ;
+    -moz-border-radius: 50px ;
+    -ms-border-radius: 50px ;
+    -o-border-radius: 50px ;
+}
+
+.submit:hover{
+    background-color:#87BB34  ;
+    border: #627B1D 5px solid ; 
+}

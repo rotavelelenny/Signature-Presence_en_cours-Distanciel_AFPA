@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+color: rgb(0, 0, 0);
+font-family: 'Montserrat', sans-serif ;
+}
+
+/* Utilisé pour la page Formateur/Manager et Administration : Success + Print*/
+.row_container{
+display: flex;
+flex-direction: row;
+}
+
+/*Utilisé pour la page stagiaire. Attention! Ne pas utiliser pour la partie Formateur / Administration et Manager */
+.container_layout_stagiaire{
+    /* background-color: white; */
+    display: flex;
+    flex-direction:row;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    right:0;
+    left: 0;
+    margin-top: 50px;
+}
+
+.container_layout_stagiaire>img{
+    width: 15%;
+    padding: 30px;
+    margin: 30px;
+}
+.container_layout_stagiaire>p{
+    text-align:center; 
+    color:grey; 
+    font-size:0.75rem ;
+    font-family: 'Montserrat', sans-serif ;
+    font-weight: 900;
+}

@@ -1,0 +1,17 @@
+Vous trouverez dans ce dossier :
+
+-les picto/ logo utilisé pour la maquette en SVG
+-les différentes étapes de l'user stories réalisées graphiquement.
+
+	-------
+
+Veuillez ouvrir le document dans adobe xD afin de pouvoir faire une "simulation" de l'user-stories
+        (bouton cliquable et menu déroulant qui bouge au clic + Selection)
+
+	-------
+
+Dans les 4 chemins (1-Stagiaire / 2-Formateur / 3-Manager / 4-Administration), vous trouveres des étapes similaires à d'autres,
+C'est pourquoije n'ai pas fais de répétitions d'une page pour certanaies. Exemple : Pour l'étape d'après signature -> Confirmation (Succes/Erreur). 
+Veuillez utiliser la charte graphique stagiaire formateur ( Pour Manager et Administration.)
+
+Je suis actuellement en train d'élaborer pour la Page Formateur - Signature - les éléments manquants (Calendrier) (Activitées + Nombres d'heures).

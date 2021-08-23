@@ -1,0 +1,182 @@
+html,
+body {
+  /* width: 100%;
+  height: 100%;
+  margin: 0%; */
+}
+
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #87bb34;
+  box-shadow: 0 0 15px 0 grey;
+  /* height: 10%; */
+  z-index: 100;
+}
+
+.carousel-wrapper {
+  margin-top: 10%;
+}
+
+.logo {
+  width: 15%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.imglogo {
+  width: 35%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu {
+  width: 85%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+li {
+  text-align: center;
+}
+
+i {
+  padding: 5%;
+}
+
+.menu > ol:first-child {
+  width: 100%;
+  display: flex;
+  position: relative;
+  /* flex-flow:row wrap; */
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-item {
+  width: 100%;
+  position: relative;
+  perspective: 100%;
+  cursor: pointer;
+}
+
+.menu-item a {
+  text-decoration: none;
+  width: 100%;
+  padding: 16px 0;
+  display: block;
+  position: relative;
+  color: white;
+  transition: all 0.5s ease;
+  transform-style: preserve-3d;
+}
+
+.menu-item a:hover {
+  font-size: 110%;
+}
+
+.menu > ol:first-child > .menu-item {
+  display: block;
+}
+
+.sub-menu {
+  width: 100%;
+  height: max-content;
+  top: 100%;
+  z-index: 100;
+  display: none;
+  position: absolute;
+}
+
+.sub-menu > .menu-item > a {
+  background: #fff;
+  border: 1px solid #87bb34;
+  color: black;
+}
+
+.sub-menu > .menu-item > a:hover {
+  background: #87bb3488;
+  border: 1px solid #87bb34;
+  color: white;
+}
+
+.menu > ol:first-child > .menu-item:hover > .sub-menu {
+  display: block;
+}
+
+@media screen and (min-width: 200px) and (max-width: 1030px) {
+  header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #87bb34;
+    margin-bottom: 50px;
+    box-shadow: 0 0 15px 0 grey;
+    height: 10%;
+  }
+
+  .menu {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+
+  ol {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .menu-item {
+    width: 14%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .menu-item a {
+    width: 100%;
+    height: 100%;
+    font-size: xx-small;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0%;
+  }
+
+  .menu-item a:hover {
+    font-size: small;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  i {
+    padding-left: 0%;
+    width: 10%;
+  }
+}

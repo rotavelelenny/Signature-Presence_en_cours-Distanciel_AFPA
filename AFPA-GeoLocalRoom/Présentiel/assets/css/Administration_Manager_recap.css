@@ -1,0 +1,56 @@
+h1 {
+  text-align: center;
+}
+hr {
+  margin: 1%;
+  width: 30%;
+  margin-left: 35%;
+}
+
+table {
+  display: flex;
+  justify-content: center;
+  border-collapse: collapse;
+}
+
+tr,
+td,
+th {
+  border: 2px solid black;
+}
+
+th {
+  padding: 1.05rem;
+}
+
+/** Submit bouton -> Valider **/
+/* parent  */
+.submit_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+}
+/* fils */
+.submit {
+  width: 170px;
+  height: 60px;
+  color: white;
+  letter-spacing: 10px;
+  text-align: center;
+  background-color: #627b1d;
+  border: #97bb34 5px solid;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+
+.submit:hover {
+  background-color: #97bb34;
+  border: #627b1d 5px solid;
+}

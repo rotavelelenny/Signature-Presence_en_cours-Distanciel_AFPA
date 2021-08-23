@@ -1,0 +1,164 @@
+/* 
+! Fait par Lenny Vazeille 
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif ;
+}
+
+
+.title{
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    /* margin-top: 50px; */
+    margin: 50px 0;
+    padding: 30px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    position: relative;
+    left: 32%;
+}
+
+/* parent */
+    main {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        border: springgreen 1px solid;
+        width: 100%;
+        height: 100%;
+        /* padding: 36px; */
+        margin: 0px;
+    }
+/* pour la page Formateur_Prestation_accompagnement */
+    .container_parent_left {
+        width: 65%;
+        height: 100%;
+        display: flex;
+        padding: 50px;
+        display: flex;
+        margin-block: 0%;
+        border: steelblue 3px solid;
+    }
+    .container_parent_right{
+        width: 35%;
+        height: 100%;
+        padding: 50px;
+        flex-direction: row;
+        border: rgb(158, 70, 180) 3px solid;
+    }
+
+
+ /* fils */
+    .container{
+        border: grey 1px solid;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .left{
+       width: 100%; 
+       height: 50%;
+
+       /* order: 1; */
+       padding: 20px;
+
+    }
+    .center_left{
+        width: 100%; 
+        height: 50%;
+
+        /* order: 2; */
+        padding: 20px;
+
+    }
+    .center_right{
+        width: 100%;
+        height: 50%;
+ 
+        /* order: 3; */
+        padding: 20px;
+
+    }
+    .right{
+        width: 100%; 
+        height: 50%;
+        /* order: 4; */
+    }
+/* 
+! Parti mise à jour le 05/03/2021 . fait par Lenny Vazeille
+ Contient : le téléchargement et l'ajout de document
+? à Intégrer dans tout les autres documents
+
+*/
+  /* Container parent */
+.documentation{
+ /* border: black 2px solid; */
+ display: flex;
+ justify-content:space-around ;
+ align-items: center;
+ flex-direction: row;
+ flex-wrap: wrap;
+}
+/* fils  */
+.download_a{
+    /* border: pink 2px solid; */
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 50%;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+    margin-top: 30px;
+}
+.file_left, .file_right {
+padding: 50px;
+}
+.file_left{
+    border-bottom: grey 2px soluid;
+}
+/* txt et lien de téléchargement*/
+a{
+    margin: 20px;
+}
+p2{
+    font-size: 0.75rem;
+    color: rgba(128, 128, 128, 0.603);
+    margin: 10px 0 -30px 0;
+}
+
+/* contenu fils-fils  */
+.download_a>img{
+    opacity: 0.5;
+    width: 170px;
+    margin: 50px 0 100px 0;
+    padding:10px;
+    transition: img ease-in 2.5s;
+    transition-property: opacity, left, top, height;
+    transition-duration: 3s, 5s;
+    -webkit-transition: img ease-in 2.5s;
+    -moz-transition: img ease-in 2.5s;
+    -ms-transition: img ease-in 2.5s;
+    -o-transition: img ease-in 2.5s;
+}
+.download_a>img:hover{
+    opacity: 1;
+    width: 200px;
+    margin: 50px 0 100px 0;
+    padding:10px;
+}

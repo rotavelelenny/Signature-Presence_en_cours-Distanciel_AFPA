@@ -1,0 +1,183 @@
+/* 0. DOM */
+/* 1. CANVAS  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  font-family: "Montserrat", sans-serif;
+  left: 0 auto;
+  top: 0 auto;
+}
+
+/***************** Motif Absence ***************************/
+/* 
+! Modifié par Lenny
+*/
+.container_layout2 {
+  background-color: white;
+  position: absolute;
+  right: 43%;
+  margin: 2%;
+  padding: 7%;
+}
+
+/* 
+! Modifié par Lenny
+*/
+.success {
+  width: 49%;
+}
+
+/* 
+! Modifé par lenny
+*/
+.title{
+  width: 100%;
+} 
+/* 
+! Modifé par lenny
+*/
+
+h1 {
+  text-align: center;
+  /* margin-top: 50px; */
+  margin: 50px 0;
+  padding: 30px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  position: relative;
+  left: 32%;
+}
+
+/* 
+hr {
+  margin: 1%;
+  width: 30%;
+  margin-left: 35%;
+} */
+
+/* 
+! Modifié par Lenny
+*/
+.motif {
+  background-color: rgb(211, 205, 205);
+  border: solid rgb(211, 205, 205) 24px;
+  width: 68%;
+  /* margin-left: 20%; */
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  height: 81px;
+}
+
+/* 
+! Modifié par Lenny
+*/
+.motif > input {
+  width: 20%;
+  height: 30px;
+  margin: 20px;
+  padding: 20px;
+}
+
+
+/*** -1- SIGNATURE -> Canvas ***/
+/* parent */
+.container_layout {
+  background-color: white;
+  /* border: #838181 1px dotted; */
+  /** Si vous souhaitez mettre en ligne les élements décommenter ci-dessous **/
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  right: 18%;
+  margin: 20px;
+  padding: 20px;
+}
+
+/* text  */
+.layout > h2 {
+  font-family: "Montserrat", sans-serif;
+  padding: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.layout p {
+  text-align: center;
+  padding: 20px;
+}
+.layout p:hover {
+  color: #8dc21c;
+  cursor: pointer;
+}
+/** Canvas **/
+/* bloc Canvas1 (rendu du canvas 1 pour confirmation) */
+#canvas {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 250px;
+  height: 170px;
+  cursor: crosshair;
+  border: solid 4px #97bb34;
+}
+
+/* bloc Canvas2 (rendu du canvas 1 pour confirmation) */
+#capture {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 250px;
+  height: 170px;
+  border: solid 4px #97bb34;
+}
+
+/** Submit bouton -> Valider **/
+/* parent  */
+.submit_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+}
+/* fils */
+.submit {
+  width: 170px;
+  height: 60px;
+  color: white;
+  letter-spacing: 10px;
+  text-align: center;
+  background-color: #627b1d;
+  border: #97bb34 5px solid;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+
+.submit:hover {
+  background-color: #97bb34;
+  border: #627b1d 5px solid;
+}

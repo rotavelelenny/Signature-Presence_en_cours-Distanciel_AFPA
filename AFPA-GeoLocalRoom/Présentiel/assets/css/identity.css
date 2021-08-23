@@ -1,0 +1,186 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif ;
+    }
+
+/* Utilisé pour toutes les pages identity 
+! Ne pas modifier
+*/
+
+.explain {
+    /* padding: 0px 0px 0px 38px; */
+    width: 69%;
+    position: absolute;
+    top: 20%;
+    color: grey;
+    font-size: 0.75rem;
+    font-weight: smaller;
+    z-index: 100;
+    margin-left: 14%;
+    margin-right: -159%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.582)
+}
+/*
+? .row_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    height: 60%;
+    border: black 2px solid;
+} */
+
+/* lien impression télécharger PDF */
+.print li{
+    font-size: 0.75rem;
+    margin-top: 10px;
+    padding: 7px;
+}
+a{
+    text-align: left;
+    float: left;
+    border: solid 1 px black;
+    color: black;
+    text-decoration-color: #87BB34;
+    -moz-text-decoration-color: #87BB34;
+    transition: all 0.25s ease-out;
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    -ms-transition: all 0.25s ease-out;
+    -o-transition: all 0.25s ease-out;
+}
+a:hover, a:focus{
+    font-size: 1.25rem;
+    color: #87BB34;
+} 
+
+/* Selecteur à choix multiples */
+/* 
+! Etablissement + Rôle 
+*/
+.container_selecteur{
+display: flex;
+flex-direction: row;
+justify-content: center;
+justify-items: center;
+align-items: center;
+padding: 15%;
+margin: 20px;
+height: 50%;
+/* width: 40%; */
+/* border: violet 2px solid; */
+}
+
+.bloc_fils{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+.droite{
+    margin-right: 30px;
+}
+
+.bloc_fils>p{
+    text-align:center;
+    margin-bottom: -5px;
+}
+
+.selecteur{
+    font-family: 'Montserrat', sans-serif ;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+    border-radius:50px;
+    border: transparent;
+    background-color:#87BB34;
+    color: white;
+    width: 190px;
+    height: 20%;
+    padding: 17px;
+    margin: 30px;
+    /* text-align: center; */
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    -ms-border-radius:50px;
+    -o-border-radius:50px;
+    transition: width 0.4s ease-in-out;
+}
+.selecteur:focus{
+width: 220px;
+}
+
+option{
+    background-color: #BCBCBC;
+    border: transparent;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    cursor: pointer;
+}
+
+/* submit - Valider button */
+
+    /** Submit bouton -> Valider **/
+/* parent  */
+.submit_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+/* fils */
+.submit{
+    width: 170px;
+    height: 60px;
+  
+    color: white;
+    letter-spacing: 10px;
+    text-align: center;
+    background-color:#627B1D ;
+    border: #87BB34 5px solid ;
+    border-radius: 50px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-border-radius: 50px ;
+    -moz-border-radius: 50px ;
+    -ms-border-radius: 50px ;
+    -o-border-radius: 50px ; 
+    margin-top: 27px;
+}
+
+.submit:hover{
+    background-color:#87BB34  ;
+    border: #627B1D 5px solid ; 
+}
+
+@media screen and (max-width: 700px) {
+    .container_selecteur {
+     flex-direction: column;
+    }
+    .submit{
+        margin: 50px;
+    }
+    .droite{
+        margin-right: 0;
+    }
+    .explain{
+        position: relative;
+        width: 50%;
+    }
+  }
